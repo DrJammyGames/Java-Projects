@@ -1,0 +1,55 @@
+{
+  "java.compile.nullAnalysis.mode": "disabled",
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.format.settings.url": ".vscode/java-formatter.xml",
+  "java.completion.importOrder": [
+    "java",
+    "javax",
+    "com",
+    "org"
+  ],
+  "java.sources.organizeImports.starThreshold": 99,
+  "java.sources.organizeImports.staticStarThreshold": 99,
+  "java.project.sourcePaths": ["src"],
+  "java.project.outputPath": "bin",
+  "java.project.referencedLibraries": ["lib/**/*.jar"],
+  "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m",
+  "java.errors.incompleteClasspath.severity": "ignore",
+  "java.configuration.checkProjectSettingsExclusions": false,
+  "java.project.importOnFirstTimeStartup": "automatic",
+  "java.completion.favoriteStaticMembers": [
+    "org.junit.Assert.*",
+    "org.junit.Assume.*",
+    "org.junit.jupiter.api.Assertions.*",
+    "org.junit.jupiter.api.Assumptions.*",
+    "org.junit.jupiter.api.DynamicContainer.*",
+    "org.junit.jupiter.api.DynamicTest.*",
+    "org.mockito.Mockito.*",
+    "org.mockito.ArgumentMatchers.*",
+    "org.mockito.Answers.*"
+  ],
+  "java.debug.settings.hotCodeReplace": "auto",
+ 
+  "java.project.resourceFilters": [
+    "node_modules",
+    ".git"
+  ],
+  "java.dependency.packagePresentation": "flat",
+  "java.codeGeneration.useBlocks": true,
+  "java.codeGeneration.generateComments": true,
+  "java.format.enabled": true,
+  "java.format.onType.enabled": true,
+  "java.format.comments.enabled": true,
+  "java.format.settings.profile": "GoogleStyle",
+  "java.completion.guessMethodArguments": true,
+  "java.completion.overwrite": true,
+  "java.signatureHelp.enabled": true,
+  "java.implementationsCodeLens.enabled": true,
+  "java.referencesCodeLens.enabled": true,
+  "java.saveActions.organizeImports": true,
+  "java.autobuild.enabled": true,
+  "java.maxConcurrentBuilds": 1,
+  "java.configuration.maven.userSettings": "/path/to/settings.xml",
+  "java.configuration.checkProjectSettingsExclusions": false,
+  "java.errors.incompleteClasspath.severity": "ignore"
+}
